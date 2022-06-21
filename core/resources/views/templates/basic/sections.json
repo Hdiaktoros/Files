@@ -1,0 +1,65 @@
+{
+    "blog": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Blog Section",
+        "element": {
+            "images":{
+                "image":{
+                    "size":"900x565"
+                }
+            },
+            "title": "text",
+            "category": "text",
+            "description_nic": "textarea-nic",
+            "modal": false
+        }
+    },
+    "policy": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Company Policy",
+        "element": {
+            "title": "text",
+            "description_nic": "textarea-nic",
+            "modal": false
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images":{
+                "payment_image":{
+                    "size":"250x30"
+                }
+            },
+            "short_details": "textarea"
+        },
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "title": "text",
+            "short_details": "text",
+            "map_key": "text",
+            "latitude": "text",
+            "longitude": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "title": "text",
+            "details": "text",
+            "modal": true
+        }
+    }
+}
